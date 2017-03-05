@@ -1,17 +1,26 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>Codepad</title>
 	<link rel="stylesheet" href="css/spacegrid.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta name="description" content="An Offline Front-End Development Playground">
+	<meta name="keywords" content="front-end,offline,codepad,code,notepad">
+	<meta name="author" content="Abhishek Warokar, Jay Shah">
+	<meta name="url" content="https://thecodepad.github.io">
+	<meta name="robots" content="all">
+	<meta name="theme-color" content="#222426">
+	<meta name="mobile-web-app-capable" content="yes">
 	<link href="https://fonts.googleapis.com/css?family=Muli:400,700" rel="stylesheet">
 </head>
 
 <body>
 	<div class="space-1 logo">
 		<img src="img/codepad-logo.png" />
-		<h1 style="color: #222">Codepad</h1>
+		<h1 style="color: #212121">Codepad</h1>
 	</div>
 	<div class="space-1 tagline">
 		<h2>An Offline Front-End Development Playground</h2>
@@ -19,19 +28,35 @@
 	<div class="space-1 writeup">
 		<h3><strong>Codepad</strong> instantly previews your code so you don't have to run back and forth between an editor and a browser.
 			You can also add your favorite icon fonts, libraries and frameworks such as Font Awesome, anime.js and Bootstrap with
-			a click. And the best of all, everything works offline.</h3>
+			a click. And the best of it all, everything works offline.</h3>
 	</div>
 	<div class="space-1">
-		<a href="#">
+		<a href="#" target="_blank">
 			<div class="button windows">Download for Windows</div>
 		</a>
-		<a href="#">
+		<a href="https://www.github.com/thecodepad/codepad" target="_blank">
 			<div class="button github">View on Github</div>
 		</a>
 	</div>
 	<div class="space-1 screenshot">
-		<img src="img/codepad-screenshot.png" />
+		<img src="img/codepad-screenshot-2.png" />
 	</div>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-93069210-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 
 </html>
